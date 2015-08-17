@@ -1,0 +1,7 @@
+post_install() {
+cat << EOF
+==>
+==> Please read /usr/share/tempest_for_eliza/README before use.
+==>
+EOF
+}
